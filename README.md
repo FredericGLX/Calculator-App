@@ -1,10 +1,13 @@
-Calculator App
+# Calculator App
+- A basic calculator application including a dark theme.
+- Front-end design from [BigsonDev](https://bigsondev.com/projects/calculator-app-project/).
 
-Functions:
+### Concepts used 
+- ES6 object classes
+- DOM Manipulation
+- Ternary Operator
+- CSS Grid
+- Enabling Dark Mode
 
-- Compute
-- All Clear button
-- Clear button (delete last digit)
-- +/- button (change number to positive or negative)
-- % button
-- Dark/Light Mode button
+### Pending
+- If the page is refreshed while on Dark Mode, user needs to double-click icon to switch back to light mode.
