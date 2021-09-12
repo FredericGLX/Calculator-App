@@ -182,13 +182,13 @@ plusMinusBtn.addEventListener('click', () => {
   calculator.updateDisplay();
 });
 
-// For Light/Dark mode
+// LIGHT / DARK theme selectors
 const darkModeBtn = document.querySelector('.icon');
 const icon = document.getElementById('toggle');
 const mystylesheet = document.getElementById('mystylesheet');
 let setTheme = localStorage.getItem('theme');
 
-// Swap light/dark mode and update local storage
+// Swap theme and update local storage
 icon.onclick = function () {
   icon.classList.toggle('darkTheme');
   icon.classList.contains('darkTheme')
@@ -200,7 +200,7 @@ icon.onclick = function () {
       localStorage.setItem('theme', 'light.css');
 };
 
-// Keep mode when refreshing
+// Keep theme when refreshing
 window.addEventListener('load', function () {
   if (setTheme === null) {
     mystylesheet.href = 'light.css';
