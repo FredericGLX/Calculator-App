@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link id="mystylesheet" rel="stylesheet" href="light.css" />
+    <script defer src="script.js"></script>
+    <title>Calculator App</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <section class="top">
+          <div class="header">
+            <button class="calc-button">Calculator</button>
+            <img id="toggle" class="icon" src="img/light.svg" alt="icon" />
+          </div>
+        </section>
+
+        <section class="screen">
+          <span data-previous-operand class="previous-operation">0</span>
+          <span data-current-operand class="current-operation">0</span>
+        </section>
+
+        <section class="container2">
+          <div class="keyboard">
+          <button  class="all-clear operator">AC</button>
+          <button  class="clear operator">C</button>
+          <button  class="plus-minus operator " value="+/-">+/-
+            <!-- <img class="plus-minus-img" src="img/plus-minus.svg" alt="+/-" /> -->
+          </button>
+          <button  class="percentage operator" value="%">
+            %
+          </button>
+
+          <button data-number class="number" value="7">7</button>
+          <button data-number class="number" value="8">8</button>
+          <button data-number class="number" value="9">9</button>
+          <button
+            
+            class="operator division-sign right-btn math-op"
+            value="/"
+          >
+            &divide;
+          </button>
+
+          <button data-number class="number" value="4">4</button>
+          <button data-number class="number" value="5">5</button>
+          <button data-number class="number" value="6">6</button>
+          <button
+            class="operator multiply-sign right-btn math-op"
+            value="*"
+          >
+            &times;
+          </button>
+
+          <button data-number class="number" value="1">1</button>
+          <button data-number class="number" value="2">2</button>
+          <button data-number class="number" value="3">3</button>
+          <button  class="operator minus-sign right-btn math-op" value="-">
+            &minus;
+          </button>
+
+          <button data-number class="number" value="0">0</button>
+          <button data-number class="operator decimal" value=".">.
+          </button>
+          <button  class="operator equal-sign" value="=">
+            &equals;
+          </button>
+          <button class="operator plus-sign right-btn math-op" value="+" >
+            &plus;
+          </button>
+        </section>
+      </div>
+      </div>
+    </main>
+  </body>
+</html>
