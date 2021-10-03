@@ -13,7 +13,7 @@
 
 ### Screenshots
 
-![Project Screenshots]<img src="img/App-Image.jpg" style="width:200px" />
+<img src="img/App-Image.jpg" alt="Porject Screenshots" style="width:800px" />
 
 ### Pending
 
