@@ -13,6 +13,7 @@ button {
   font-family: 'Lato', sans-serif;
   opacity: 1;
   transition: hover 0.3s;
+  cursor: pointer;
 }
 
 body {
@@ -57,6 +58,7 @@ body {
 
 .icon {
   height: 2rem;
+  cursor: pointer;
 }
 
 .screen {
