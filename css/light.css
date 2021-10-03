@@ -17,7 +17,7 @@ button {
 }
 
 body {
-  background-image: url(img/background.svg);
+  background-image: url(../img/background.svg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@ body {
 
 .container {
   position: relative;
-  background-color: #000;
+  background-color: #fff;
   width: 36.4rem;
   box-shadow: 0px 3px 14px #00000029;
   border-radius: 4px;
@@ -64,7 +64,7 @@ body {
 .screen {
   position: relative;
   display: grid;
-  background-color: #222222;
+  background-color: #ececec;
   height: 17rem;
   padding-right: 1rem;
   text-align: right;
@@ -109,7 +109,7 @@ body {
 }
 
 .operator {
-  background-color: #222;
+  background-color: #d2d2d2;
   border: none;
   border-radius: 50%;
   color: #fff;
@@ -134,9 +134,9 @@ body {
 }
 
 .right-btn {
-  background-color: #4568b6;
+  background-color: #b9d6e3;
 }
 
 .equal-sign {
-  background-color: #0048f2;
+  background-color: #4f79dc;
 }

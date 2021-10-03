@@ -193,19 +193,18 @@ icon.onclick = function () {
   icon.classList.toggle('darkTheme');
   icon.classList.contains('darkTheme')
     ? (icon.src = 'img/dark.svg') &&
-      (mystylesheet.href = 'dark.css') &&
-      localStorage.setItem('theme', 'dark.css')
+      (mystylesheet.href = 'css/dark.css') &&
+      localStorage.setItem('theme', 'css/dark.css')
     : (icon.src = 'img/light.svg') &&
-      (mystylesheet.href = 'light.css') &&
-      localStorage.setItem('theme', 'light.css');
+      (mystylesheet.href = 'css/light.css') &&
+      localStorage.setItem('theme', 'css/light.css');
 };
 
 // Keep theme when refreshing
 window.addEventListener('load', function () {
   if (setTheme === null) {
-    mystylesheet.href = 'light.css';
+    mystylesheet.href = 'css/light.css';
   } else {
     mystylesheet.href = setTheme;
-    // icon.src = `img/${setTheme.slice(0, -4)}.svg`;
   }
 });
