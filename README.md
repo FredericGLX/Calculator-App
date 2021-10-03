@@ -13,7 +13,7 @@
 
 ### Screenshots
 
-<img src="img/App-Image.jpg" alt="Porject Screenshots" style="width:800px" />
+<img src="img/App-Image.jpg" alt="Porject Screenshots" style="width:500px" />
 
 ### Pending
 
