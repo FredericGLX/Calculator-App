@@ -11,6 +11,10 @@
 - CSS Grid
 - Enabling Dark Mode
 
+### Screenshots
+
+![Project Screenshots](img/App-Image.jpg)
+
 ### Pending
 
 - If the page is refreshed while on Dark Mode, user needs to double-click icon to switch back to light mode.
